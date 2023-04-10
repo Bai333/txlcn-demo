@@ -20,6 +20,7 @@
             <artifactId>txlcn-demo-common</artifactId>
         </dependency>
 
+        <!--引入consul依赖，用于服务注册发现-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-consul-discovery</artifactId>

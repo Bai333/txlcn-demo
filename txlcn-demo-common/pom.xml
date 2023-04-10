@@ -36,11 +36,13 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+        <!--引入健康检查的依赖,用于健康检查监控-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
+        <!--引入springbootweb依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
